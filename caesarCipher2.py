@@ -1,16 +1,12 @@
-# Caesar Cipher
-# http://inventwithpython.com/hacking (BSD Licensed)
-
 import pyperclip
 
 # the string to be encrypted/decrypted
-message = 'This is my secret message.'
-
+message = raw_input(your message:)
 # the encryption/decryption key
-key = 13
-
+mkey = raw_input(your key:)
+key = int(mkey)
 # tells the program to encrypt or decrypt
-mode = 'encrypt' # set to 'encrypt' or 'decrypt'
+mode = raw_input(encrpyt/decrpyt) # set to 'encrypt' or 'decrypt'
 
 # every possible symbol that can be encrypted
 LETTERS = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
