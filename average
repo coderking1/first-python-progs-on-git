@@ -13,4 +13,4 @@ while ( True ) :
     count = count + 1
 
 average = total / count
-print 'Average is', average
+print 'the average is', average
